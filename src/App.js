@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Home from './pages/Home/Home';
+import Patterns from './pages/Patterns/Patterns'
+import Items from './pages/Items/Items';
+import Contact from './pages/Contact/Contact';
+import Product from './pages/Product/Product';
+import Checkout from './pages/Checkout/Checkout';
+import Search from './pages/Search/Search';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import RootLayout from './layouts/RootLayout';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "patterns", element: <Patterns /> },
+      { path: "yarn", element: <Items itemType="yarn" /> },
+      { path: "tools", element: <Items itemType="tools" /> },
+      { path: "contact", element: <Contact /> },
+      { path: "product/:id", element: <Product /> },
+      { path: "checkout", element: <Checkout /> },
+      { path: "search", element: <Search /> }
+    ]
+  }
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
-
-export default App;

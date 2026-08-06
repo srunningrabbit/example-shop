@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "type": "patterns",
+        "name": "Floral Puff Diamond Knit Sweater",
+        "price": 12,
+        "image": "https://images.pexels.com/photos/15063341/pexels-photo-15063341.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 2,
+        "type": "patterns",
+        "name": "Embroidered Flower Knit Sweater",
+        "price": 15,
+        "image": "https://images.pexels.com/photos/3583139/pexels-photo-3583139.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product. This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 3,
+        "type": "patterns",
+        "name": "Chunky Cable Knit Scarf",
+        "price": 10,
+        "image": "https://images.pexels.com/photos/5709931/pexels-photo-5709931.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product. This is a sample description for my product. This is where I will describe everything about the product. This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 4,
+        "type": "patterns",
+        "name": "Diamond Pattern Knit Sweater",
+        "price": 10,
+        "image": "https://images.pexels.com/photos/14641422/pexels-photo-14641422.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product. This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 5,
+        "type": "patterns",
+        "name": "Colorful Granny Square Crochet Blanket",
+        "price": 5,
+        "image": "https://images.pexels.com/photos/5806996/pexels-photo-5806996.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 6,
+        "type": "patterns",
+        "name": "Whimsical Mushroom Knit Sweater",
+        "price": 15,
+        "image": "https://images.pexels.com/photos/10562981/pexels-photo-10562981.jpeg",
+        "description": "This is a sample description for my product. This is where I will describe everything about the product. This is a sample description for my product. This is where I will describe everything about the product."
+    },
+    {
+        "id": 7,
+        "type": "yarn",
+        "name": "Mauve Medium Weight Yarn",
+        "price": 7,
+        "image": "https://images.pexels.com/photos/38666524/pexels-photo-38666524.jpeg",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "type": "yarn",
+        "name": "Coral Light Weight Yarn",
+        "price": 7,
+        "image": "https://images.pexels.com/photos/38680110/pexels-photo-38680110.jpeg",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "type": "yarn",
+        "name": "Purple Medium Weight Yarn",
+        "price": 7,
+        "image": "https://images.pexels.com/photos/38648478/pexels-photo-38648478.jpeg",
+        "description": ""
+    },
+    {
+        "id": 10,
+        "type": "yarn",
+        "name": "Lime Green Fine Weight Yarn",
+        "price": 7,
+        "image": "https://images.pexels.com/photos/38668147/pexels-photo-38668147.jpeg",
+        "description": ""
+    },
+    {
+        "id": 11,
+        "type": "yarn",
+        "name": "Red and Pink Medium Weight Yarn",
+        "price": 9,
+        "image": "https://images.pexels.com/photos/38680111/pexels-photo-38680111.jpeg",
+        "description": ""
+    },
+    {
+        "id": 12,
+        "type": "yarn",
+        "name": "Emerald Bulky Weight Yarn",
+        "price": 9,
+        "image": "https://images.pexels.com/photos/38668145/pexels-photo-38668145.jpeg",
+        "description": ""
+    },
+    {
+        "id": 13,
+        "type": "yarn",
+        "name": "Forest Green Slub Yarn",
+        "price": 9,
+        "image": "https://images.pexels.com/photos/38666529/pexels-photo-38666529.jpeg",
+        "description": ""
+    },
+    {
+        "id": 14,
+        "type": "tools",
+        "name": "10mm Crochet Hook",
+        "price": 2,
+        "image": "https://images.pexels.com/photos/4792083/pexels-photo-4792083.jpeg",
+        "description": ""
+    },
+    {
+        "id": 15,
+        "type": "tools",
+        "name": "7mm Crochet Hook",
+        "price": 2,
+        "image": "https://images.pexels.com/photos/3945638/pexels-photo-3945638.jpeg",
+        "description": ""
+    },
+    {
+        "id": 16,
+        "type": "tools",
+        "name": "8mm Crochet Hook",
+        "price": 2,
+        "image": "https://images.pexels.com/photos/3693230/pexels-photo-3693230.jpeg",
+        "description": ""
+    },
+    {
+        "id": 17,
+        "type": "tools",
+        "name": "5.5mm Crochet Hook",
+        "price": 2,
+        "image": "https://images.pexels.com/photos/3693232/pexels-photo-3693232.jpeg",
+        "description": ""
+    },
+    {
+        "id": 18,
+        "type": "tools",
+        "name": "Crochet Hook Set",
+        "price": 10,
+        "image": "https://images.pexels.com/photos/3639038/pexels-photo-3639038.jpeg",
+        "description": ""
+    },
+    {
+        "id": 19,
+        "type": "tools",
+        "name": "4mm Straight Knitting Needles",
+        "price": 4,
+        "image": "https://images.pexels.com/photos/5659992/pexels-photo-5659992.jpeg",
+        "description": ""
+    },
+    {
+        "id": 20,
+        "type": "tools",
+        "name": "12mm Straight Knitting Needles",
+        "price": 4,
+        "image": "https://images.pexels.com/photos/5788151/pexels-photo-5788151.jpeg",
+        "description": ""
+    },
+    {
+        "id": 21,
+        "type": "tools",
+        "name": "20in 10mm Circular Knitting Needles",
+        "price": 4,
+        "image": "https://images.pexels.com/photos/8956657/pexels-photo-8956657.jpeg",
+        "description": ""
+    }
+]

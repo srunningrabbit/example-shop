@@ -1,0 +1,38 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.search-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-items {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.search-item {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.search-item img {
+    min-width: 200px;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.search-item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}

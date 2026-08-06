@@ -1,0 +1,53 @@
+@import url("../../index.css");
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 20px;
+    width: 50%;
+    min-width: 600px;
+    padding: 20px 50px;
+}
+
+.contact-container a {
+    color: grey;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form * {
+    border: solid black 3px;
+    border-radius: 20px 20px;
+    font-family: "Elms Sans", sans-serif;
+    font-size: 16px;
+}
+
+.contact-form input {
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+}
+
+.contact-message {
+    height: 200px;
+    padding: 10px 20px;
+    outline: none;
+    resize: none;
+}
+
+.contact-form button {
+    height: 40px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:active {
+    background-color: rgb(60, 60, 60);
+}

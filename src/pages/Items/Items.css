@@ -1,0 +1,29 @@
+.item-container {
+    padding: 20px 50px;
+}
+
+.item-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item img {
+    width: inherit;
+    height: 240px;
+    object-fit: cover;
+}
+

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "girl framing face with sweater",
+        "image": "https://images.pexels.com/photos/16427708/pexels-photo-16427708.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "girl in red sweater",
+        "image": "https://images.pexels.com/photos/5711472/pexels-photo-5711472.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "girl in striped sweater",
+        "image": "https://images.pexels.com/photos/19681492/pexels-photo-19681492.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "girl in brown white sweater",
+        "image": "https://images.pexels.com/photos/5709914/pexels-photo-5709914.jpeg"
+    }
+]

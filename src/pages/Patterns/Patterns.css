@@ -1,0 +1,25 @@
+.pattern-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.pattern-item {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.pattern-item img {
+    min-width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.pattern-item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
