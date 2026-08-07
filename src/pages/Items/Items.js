@@ -21,7 +21,7 @@ export default function Items({ itemType }) {
                     itemData.map(item => {
                         return (
                             <div key={item["id"]} className="item">
-                                <img src={item["image"]} alt={item["name"]}/>
+                                <img src={item["image"]} alt={item["name"]} loading="lazy" />
                                 <h4><Link to={`/product/${item["id"]}`}>{item["name"]}</Link></h4>
                                 <span>{formatPrice(item["price"])}</span>
                             </div>

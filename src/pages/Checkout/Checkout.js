@@ -16,7 +16,7 @@ export default function Checkout() {
                 <h2>Checkout ({cart.length} items)</h2>
                 {cart.map((item, index) => (
                     <div key={index} className="checkout-item">
-                        <img src={item.image} alt={item.name} />
+                        <img src={item.image} alt={item.name} loading="lazy" />
                         <div>
                             <h3>{item.name}</h3>
                             <span>{formatPrice(item.price)}</span>

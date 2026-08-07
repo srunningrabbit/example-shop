@@ -92,6 +92,8 @@ header h1 {
 }
 
 .cart i {
+    display: block;
+    height: 36px;
     font-size: 36px;
 }
 

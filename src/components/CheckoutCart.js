@@ -23,7 +23,7 @@ export default function CheckoutCart() {
                         {cart.length === 0 ? <h3>Cart is empty</h3> : null}
                         {cart.map((product, index) => (
                             <div key={index} className="mini-checkout-item">
-                                <img src={product.image} alt={product.name} />
+                                <img src={product.image} alt={product.name} loading="lazy" />
                                 <div>
                                     <h4>{product.name}</h4>
                                     <span>{formatPrice(product.price)}</span>

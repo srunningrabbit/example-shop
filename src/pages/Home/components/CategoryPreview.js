@@ -23,7 +23,7 @@ export default function CategoryPreview() {
                             {products.slice(0, itemLimit).map(product => {
                                 return (
                                     <div key={product.id} className="preview-item">
-                                        <img src={product.image} alt={product.name}/>
+                                        <img src={product.image} alt={product.name} loading="lazy" />
                                         <h4><Link to={`/product/${product.id}`}>{product.name}</Link></h4>
                                         <span>{formatPrice(product.price)}</span>
                                     </div>

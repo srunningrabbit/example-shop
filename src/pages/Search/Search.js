@@ -17,7 +17,7 @@ export default function Search() {
             <div className="search-items">
                 {filteredProducts.map((product, index) => (
                     <div key={index} className="search-item">
-                        <img src={product.image} alt={product.name} />
+                        <img src={product.image} alt={product.name} loading="lazy" />
                         <div>
                             <h3><Link to={`/product/${product.id}`}>{product.name}</Link></h3>
                             <span>{formatPrice(product.price)}</span>

@@ -6,10 +6,10 @@ import Contact from './pages/Contact/Contact';
 import Product from './pages/Product/Product';
 import Checkout from './pages/Checkout/Checkout';
 import Search from './pages/Search/Search';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <RootLayout />,

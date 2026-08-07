@@ -21,7 +21,7 @@ export default function Patterns() {
                     patternData.map(pattern => {
                         return (
                             <div key={pattern["id"]} className="pattern-item">
-                                <img src={pattern["image"]} alt={pattern["name"]}/>
+                                <img src={pattern["image"]} alt={pattern["name"]} loading="lazy" />
                                 <div>
                                     <h4><Link to={`/product/${pattern["id"]}`}>{pattern["name"]}</Link></h4>
                                     <span>{formatPrice(pattern["price"])}</span>
