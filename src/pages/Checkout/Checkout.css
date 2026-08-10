@@ -51,3 +51,20 @@
     border-top: solid grey 1px;
     padding-top: 10px;
 }
+
+@media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+
+    .checkout-info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .checkout-item img {
+        min-width: 50%;
+        max-width: 50%;
+    }
+}

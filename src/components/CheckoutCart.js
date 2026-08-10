@@ -18,24 +18,26 @@ export default function CheckoutCart() {
         <div className="cart-container">
             <div className="cart">
                 <Link to="/checkout"><i className="fi fi-rs-shopping-cart"></i></Link>
-                <div className="mini-checkout">
-                    <div className="mini-checkout-items">
-                        {cart.length === 0 ? <h3>Cart is empty</h3> : null}
-                        {cart.map((product, index) => (
-                            <div key={index} className="mini-checkout-item">
-                                <img src={product.image} alt={product.name} loading="lazy" />
-                                <div>
-                                    <h4>{product.name}</h4>
-                                    <span>{formatPrice(product.price)}</span>
+                <div className="mini-checkout-container">
+                    <div className="mini-checkout">
+                        <div className="mini-checkout-items">
+                            {cart.length === 0 ? <h3>Cart is empty</h3> : null}
+                            {cart.map((product, index) => (
+                                <div key={index} className="mini-checkout-item">
+                                    <img src={product.image} alt={product.name} loading="lazy" />
+                                    <div>
+                                        <h4>{product.name}</h4>
+                                        <span>{formatPrice(product.price)}</span>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
+                            ))}
+                        </div>
+                        <div className="item-total">
+                            <h3>Item Total:</h3>
+                            <h3>{formatPrice(itemTotal)}</h3>
+                        </div>
+                        <button onClick={() => navigate("/checkout")}>Checkout</button>
                     </div>
-                    <div className="item-total">
-                        <h3>Item Total:</h3>
-                        <h3>{formatPrice(itemTotal)}</h3>
-                    </div>
-                    <button onClick={() => navigate("/checkout")}>Checkout</button>
                 </div>
             </div>
         </div>

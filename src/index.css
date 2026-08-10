@@ -20,9 +20,20 @@ a {
 }
 
 header {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    border-bottom: solid black 3px;
+    background-color: white;
+    z-index: 100;
+}
+
+header > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
     padding: 20px 50px 0 50px;
 }
 
@@ -82,6 +93,7 @@ header h1 {
 }
 
 .cart-container {
+    position: relative;
     display: flex;
     justify-content: end;
     flex: 1;
@@ -97,24 +109,29 @@ header h1 {
     font-size: 36px;
 }
 
-.mini-checkout {
+.mini-checkout-container {
     content: "";
     position: absolute;
     display: none;
+    right: -25px;
+    width: 360px;
+    padding-top: 15px;
+    z-index: 10;
+}
+
+.cart:hover .mini-checkout-container {
+    display: flex;
+}
+
+.mini-checkout {
+    display: flex;
     flex-direction: column;
     gap: 10px;
-    right: 0px;
-    width: 360px;
     max-height: 600px;
     border: solid black 3px;
     border-radius: 20px 20px;
     padding: 20px;
     background-color: white;
-    z-index: 10;
-}
-
-.cart:hover .mini-checkout {
-    display: flex;
 }
 
 .mini-checkout-items {
@@ -191,6 +208,38 @@ main {
 }
 
 footer {
-    padding: 50px 0 20px 0;
+    border-top: solid black 3px;
+    padding: 20px 0;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    header > div h1 {
+        margin: 0 10px;
+    }
+
+    .search-bar:focus-within {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .search-bar:focus-within ~ h1, .search-bar:focus-within ~ .cart-container {
+        display: none;
+    }
+
+    .cart:hover .mini-checkout-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    header > div h1 {
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    nav {
+        padding: 0 10px;
+    }
 }

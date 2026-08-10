@@ -39,3 +39,18 @@
 .product button:active {
     background-color: rgb(60, 60, 60);
 }
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .product img {
+        min-width: 100%;
+        height: 500px;
+    }
+
+    .product > div {
+        gap: 5px;
+    }
+}

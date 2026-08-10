@@ -23,3 +23,19 @@
     justify-content: center;
     gap: 10px;
 }
+
+@media (max-width: 1000px) {
+    .pattern-item img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pattern-item {
+        flex-direction: column;
+    }
+
+    .pattern-item > div {
+        gap: 5px;
+    }
+}
